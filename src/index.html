@@ -7,7 +7,31 @@
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   </head>
   <body>
-    // All of your HTML goes here
+
+
+  <!--This is where I set the title on the page. Couldn't think of anything very meaningful. Image shamelessly taken from a bandcamp page-->
+    <div class="header">
+      <h1>Professional Keyboard Tapper</h1>
+      <img class="image" src="https://f4.bcbits.com/img/0008287267_100.png"/>
+    </div>
+
+<!--This is where I set my buttons. I found it easier to position them as a block instead of five individual pieces. Based on the way I made the JS Object it turned out more convenient to assign ids -->
+    <div class="infoButton">
+      <button id="firstName">First Name</button>
+      <button id="lastName">Last Name</button>
+      <button id="jobTitle">Job Title</button>
+      <button id="homeOffice">Home Office</button>
+      <button id="aboutMe">Tell Me More</button>
+    </div>
+
+  <!--You would not believe how long it took me to figure out how to make an output area. The whole time i'm thinking "output textbox" as if I have to create a special thing just for text beyond what it is. -->
+    <div id="textboxDiv"></div>
+
+    <div id="footer">
+      <img id="samandsushi" src="SamandSushi.jpg" style="width:400px;height:680px;">
+      </div>
+
     <script src="init.js"></script>
+
   </body>
 </html>
